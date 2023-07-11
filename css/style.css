@@ -79,16 +79,15 @@ body {
 
 .card:is(:hover, :focus) .container {
     opacity: 1;
+    transition: 1s ease-in-out; 
     :first-child {
-        transform: translateX(30%) scale(1.2);            transition: 1s ease-in-out; 
+        transform: translateX(100%) translateY(-60%) scale(1.3); transition: 1s ease-in-out; 
     };
     :nth-child(2) {
-        transform: translateX(-30%) scale(1.2);
+        transform: translateX(-100%) translateY(-60%) scale(1.3);
         transition: 1s ease-in-out; 
     };
 }
-
-
 
 .card:not(:hover) * {
     transition: 1s ease-in-out;
