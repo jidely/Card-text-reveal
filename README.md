@@ -21,7 +21,7 @@ This is a simple HTML and CSS example that demonstrates a card gallery with hove
 
 Preview
 -------
-![Card Hover](preview.png)
+![Card Hover](card-text-reveal.gif)
 
 How to Use
 ----------
